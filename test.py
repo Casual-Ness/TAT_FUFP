@@ -1,5 +1,4 @@
 # -- coding:utf-8 --
-#经过预训练后，对预测微调,加入了低分辨率真实值的超分
 
 import os
 import numpy as np
