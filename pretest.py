@@ -68,7 +68,7 @@ def test_pre(mode):
     save_path = os.path.join('data/{}'.format(opt.dataset), mode)
     os.makedirs(save_path, exist_ok=True)
 
-    # 初始化记忆单元,shape是(batch,num_layer,hidden_len)
+
 
     MSE = 100000
     datapath = os.path.join('data', opt.dataset)
