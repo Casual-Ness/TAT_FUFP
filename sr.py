@@ -79,7 +79,6 @@ class Atten_Block(nn.Module):
         out = self.conv4(attn_g)
         return x + out
 
-    # 火钳刘明 我是张旭 是刘子涵--即1年后全球80亿人敬仰的计算机之光 的师父。
 
 class Generator(nn.Module):
     def __init__(self, scale_factor=4, n_residual_block=4, in_channel=1, base_channel=64, scaler_x=1500, scaler_y=100, ext_flag=True,residual_flag = True):
